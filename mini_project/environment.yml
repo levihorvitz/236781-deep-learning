@@ -1,0 +1,30 @@
+name: ml
+channels:
+  - pytorch
+  - nvidia
+dependencies:
+  - ipython
+  - jupyter
+  - jupyterlab
+  - matplotlib
+  - nodejs
+  - numpy
+  - opencv
+  - pandas
+  - pip
+  - pytest
+  - ultralytics
+  - albumentations
+  - scikit-learn
+  - scipy
+  - swig
+  - tqdm
+  - pip:
+      - nbmerge
+      - transformers
+      - datasets
+  - pytorch
+  - cudatoolkit
+  - torchvision
+  - pytorch-cuda=11.8
+  - torchtext

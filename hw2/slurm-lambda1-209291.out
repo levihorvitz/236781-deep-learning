@@ -1,0 +1,52 @@
+*** SLURM BATCH JOB 'dans_job' STARTING ***
+*** Activating environment cs236781-hw ***
+no change     /home/dansdeor/miniconda3/condabin/conda
+no change     /home/dansdeor/miniconda3/bin/conda
+no change     /home/dansdeor/miniconda3/bin/conda-env
+no change     /home/dansdeor/miniconda3/bin/activate
+no change     /home/dansdeor/miniconda3/bin/deactivate
+no change     /home/dansdeor/miniconda3/etc/profile.d/conda.sh
+no change     /home/dansdeor/miniconda3/etc/fish/conf.d/conda.fish
+no change     /home/dansdeor/miniconda3/shell/condabin/Conda.psm1
+no change     /home/dansdeor/miniconda3/shell/condabin/conda-hook.ps1
+no change     /home/dansdeor/miniconda3/lib/python3.10/site-packages/xontrib/conda.xsh
+no change     /home/dansdeor/miniconda3/etc/profile.d/conda.csh
+modified      /home/dansdeor/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+Added mamba to /home/dansdeor/.bashrc
+
+==> For changes to take effect, close and re-open your current shell. <==
+
+Run 'mamba init' to be able to run mamba activate/deactivate
+and start a new shell session. Or use conda to activate/deactivate.
+
+[NbConvertApp] Converting notebook ./Part0_Intro.ipynb to notebook
+[NbConvertApp] Writing 4096 bytes to Part0_Intro.ipynb
+[NbConvertApp] Converting notebook ./Part1_Backprop.ipynb to notebook
+[NbConvertApp] Writing 47188 bytes to Part1_Backprop.ipynb
+[NbConvertApp] Converting notebook ./Part2_Optimization.ipynb to notebook
+[NbConvertApp] Writing 3809636 bytes to Part2_Optimization.ipynb
+[NbConvertApp] Converting notebook ./Part3_MLP.ipynb to notebook
+[NbConvertApp] Writing 4926523 bytes to Part3_MLP.ipynb
+[NbConvertApp] Converting notebook ./Part4_CNN.ipynb to notebook
+[NbConvertApp] Writing 101648 bytes to Part4_CNN.ipynb
+[NbConvertApp] Converting notebook ./Part5_CNN_Experiments.ipynb to notebook
+[NbConvertApp] Writing 1854977 bytes to Part5_CNN_Experiments.ipynb
+[NbConvertApp] Converting notebook ./Part6_YOLO.ipynb to notebook
+[NbConvertApp] Writing 2013704 bytes to Part6_YOLO.ipynb
+[NbConvertApp] Converting notebook ./hw2-209509181_313511602.ipynb to html
+[NbConvertApp] ERROR | Notebook JSON is invalid: Additional properties are not allowed ('id' was unexpected)
+
+Failed validating 'additionalProperties' in markdown_cell:
+
+On instance['cells'][118]:
+{'attachments': {},
+ 'cell_type': 'markdown',
+ 'id': '616125a5-44b0-4f3c-a80a-3f836432bb33',
+ 'metadata': {'pycharm': {'name': '#%% md\n'}, 'tags': []},
+ 'source': '$$\n'
+           '\\newcommand{\\mat}[1]{\\boldsymbol {#1}}\n'
+           '\\newcommand{\\mattr}[1]...'}
+[NbConvertApp] Writing 12047735 bytes to hw2-209509181_313511602.html
